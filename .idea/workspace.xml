@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/thoughtworks/firstLesson/SpyCheckerTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/SpyCheckerTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/CapitalCalculator.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/CapitalCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Employee.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Employee.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Engineer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Engineer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Manager.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Manager.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PayAmountCalculator.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/PayAmountCalculator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Person.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Person.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/PriceComputer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/Salesman.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Salesman.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/CapitalCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/firstLesson/CapitalCalculatorTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/com/thoughtworks/PayAmountCalculatorTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/firstLesson/PayAmountCalculatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="" />
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,91 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PriceComputer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/PriceComputer.java">
+      <file leaf-file-name="FakePrintStream.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1140">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpyChecker.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0862069" vertical-offset="0" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpyCheckerTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/SpyCheckerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CapitalCalculator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/CapitalCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CapitalCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/CapitalCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Salesman.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Salesman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Engineer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Engineer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayAmountCalculatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/PayAmountCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="83" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="555">
+            <state line="6" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.16513762" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -204,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/PriceComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintstream.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
       </list>
     </option>
   </component>
@@ -274,6 +180,10 @@
               <option name="myItemId" value="thoughtworks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -285,7 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -308,10 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="thoughtworks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firstLesson" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -742,35 +648,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
+        <state line="2" column="38" selection-start="77" selection-end="77" vertical-scroll-proportion="0.055045873" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Engineer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="285">
+        <state line="3" column="30" selection-start="109" selection-end="109" vertical-scroll-proportion="0.08256881" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="465">
+        <state line="18" column="20" selection-start="486" selection-end="486" vertical-scroll-proportion="0.49541286" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/CapitalCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="540">
+        <state line="23" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.6330275" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/PayAmountCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="83" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="555">
+        <state line="27" column="83" selection-start="987" selection-end="987" vertical-scroll-proportion="0.72477067" vertical-offset="10" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -791,21 +697,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/Salesman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="255">
+        <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.055045873" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/CapitalCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="629" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="480">
+        <state line="20" column="18" selection-start="629" selection-end="629" vertical-scroll-proportion="0.5504587" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/firstLesson/SpyCheckerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+        <state line="4" column="0" selection-start="71" selection-end="71" vertical-scroll-proportion="0.11494253" vertical-offset="0" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
@@ -813,6 +719,13 @@
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="26" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0862069" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.16513762" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
