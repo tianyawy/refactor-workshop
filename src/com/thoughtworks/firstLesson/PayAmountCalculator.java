@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
 
 public class PayAmountCalculator {
     private boolean isDead;

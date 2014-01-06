@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
 
 import java.util.Date;
 

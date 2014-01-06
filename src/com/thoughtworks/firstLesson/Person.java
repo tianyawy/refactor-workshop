@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
 
 public class Person {
     public static final int O = 0;
