@@ -1,4 +1,4 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
 
 public abstract class Employee {
     static final int ENGINEER = 0;

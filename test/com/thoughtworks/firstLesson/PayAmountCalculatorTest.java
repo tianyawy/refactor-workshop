@@ -1,5 +1,6 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
 
+import com.thoughtworks.firstLesson.PayAmountCalculator;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

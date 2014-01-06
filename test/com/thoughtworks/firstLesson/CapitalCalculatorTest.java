@@ -1,4 +1,5 @@
-package com.thoughtworks;
+package com.thoughtworks.firstLesson;
+import com.thoughtworks.firstLesson.CapitalCalculator;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
