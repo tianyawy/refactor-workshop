@@ -22,9 +22,8 @@ public class ExampleOne {
         double outstanding = 0.0;
 
         //Print banner
-        _PrintStream.println("********************");
-        _PrintStream.println("********Customer****");
-        _PrintStream.println("********************");
+        PrintBanner();
+
 
         //Calculate Outstanding
         while (e.hasMoreElements()) {
@@ -36,5 +35,12 @@ public class ExampleOne {
         _PrintStream.println("name:" + _Name);
         _PrintStream.println("amount:" + outstanding);
 
+    }
+
+
+    private void PrintBanner(){
+        _PrintStream.println("********************");
+        _PrintStream.println("********Customer****");
+        _PrintStream.println("********************");
     }
 }
