@@ -2,8 +2,9 @@ package com.thoughtworks.utils;
 
 import java.io.*;
 
-class FakePrintStream extends PrintStream {
+public class FakePrintStream extends PrintStream {
 
+    public String OutString = "";
 
     public FakePrintStream(OutputStream out) {
         super(out);
@@ -36,5 +37,9 @@ class FakePrintStream extends PrintStream {
     @Override
     public void println(){
 
+    }
+
+    public void println(String x){
+        OutString = OutString + x;
     }
 }

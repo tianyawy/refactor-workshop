@@ -52,7 +52,7 @@ public class ExampleOneTest extends TestCase {
         ExampleOne one = new ExampleOne(_PrintStream, _Orders, "test1");
         one.printOwing();
 
-        assertThat(_PrintStream.outMessage, is("****************************Customer************************name:test1amount:8.0"));
+        assertThat(_PrintStream.OutString, is("****************************Customer************************name:test1amount:8.0"));
 
     }
 
