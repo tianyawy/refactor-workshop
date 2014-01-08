@@ -66,9 +66,13 @@ public class ExampleOne {
 
     }
 
+    private  double getDelta(){
+        return 10.0;
+    }
+
     private double adjustValue(int month, int day) {
         int totalDays = month*31+day;
-        double importantValue1 = (totalDays * 3) + 200;
+        double importantValue1 = (totalDays * 3) + 200+getDelta();
         double importantValue2 = (totalDays * 1.5) + 400;
 
         if((totalDays*4 - importantValue1) > 100){
