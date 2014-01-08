@@ -65,4 +65,13 @@ public class ExampleOneTest extends TestCase {
 
     }
 
+    @Test
+    public void testPrintOwing3() throws Exception {
+        ExampleOne one = new ExampleOne(_PrintStream, _Orders, "test1");
+        one.printOwing3(2,2,1);
+
+        assertThat(_PrintStream.OutString, is("****************************Customer************************name:test1amount:3082.9"));
+
+    }
+
 }
