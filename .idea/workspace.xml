@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="975">
+            <state line="61" column="23" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -88,7 +87,7 @@
       <file leaf-file-name="ExampleOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6363636" vertical-offset="0" max-vertical-offset="825">
+            <state line="45" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.6727273" vertical-offset="60" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -130,8 +129,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/SpyChecker.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintstream.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
       </list>
     </option>
@@ -166,8 +165,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,6 +301,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,19 +437,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -476,6 +462,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -612,6 +611,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19097222" sideWeight="0.42757416" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -625,7 +625,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -650,6 +649,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="68" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="51" selection-start="929" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="68" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="765">
@@ -824,14 +844,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+        <state line="61" column="23" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6363636" vertical-offset="0" max-vertical-offset="825">
+        <state line="45" column="33" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.6727273" vertical-offset="60" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>

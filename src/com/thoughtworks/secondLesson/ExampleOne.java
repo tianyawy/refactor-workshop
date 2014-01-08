@@ -37,6 +37,25 @@ public class ExampleOne {
 
     }
 
+    public void printOwing2() {
+        //Print banner
+        PrintBanner();
+
+
+        Enumeration e = _Orders.elements();
+        double outstanding = 0.0;
+        //Calculate Outstanding
+        while (e.hasMoreElements()) {
+            Order each = (Order) e.nextElement();
+            outstanding += each.GetAmount();
+        }
+
+        //print details
+        PrintDetails(outstanding);
+
+
+    }
+
     private void PrintDetails(double outstanding) {
         _PrintStream.println("name:" + _Name);
         _PrintStream.println("amount:" + outstanding);
