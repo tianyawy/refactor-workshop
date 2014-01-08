@@ -44,9 +44,8 @@ public class ExampleOne {
         //Print banner
         PrintBanner();
         //Calculate Outstanding
-        double initOutstanding = previousPrice*1.2;
 
-        double outstanding = getOutstanding2(initOutstanding);
+        double outstanding = getOutstanding2(previousPrice*1.2);
         //print details
         PrintDetails(outstanding);
 

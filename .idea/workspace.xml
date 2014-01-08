@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +78,7 @@
       <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="78" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1110">
+            <state line="61" column="12" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -88,7 +87,7 @@
       <file leaf-file-name="ExampleOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="21" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.92727274" vertical-offset="105" max-vertical-offset="1185">
+            <state line="47" column="62" selection-start="1156" selection-end="1173" vertical-scroll-proportion="0.44242424" vertical-offset="280" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -887,14 +886,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="78" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="885">
+        <state line="61" column="12" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="21" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.92727274" vertical-offset="105" max-vertical-offset="1185">
+        <state line="47" column="62" selection-start="1156" selection-end="1173" vertical-scroll-proportion="0.44242424" vertical-offset="280" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
