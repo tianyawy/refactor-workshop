@@ -59,9 +59,9 @@ public class ExampleOneTest extends TestCase {
     @Test
     public void testPrintOwing2() throws Exception {
         ExampleOne one = new ExampleOne(_PrintStream, _Orders, "test1");
-        one.printOwing2();
+        one.printOwing2(2);
 
-        assertThat(_PrintStream.OutString, is("****************************Customer************************name:test1amount:8.0"));
+        assertThat(_PrintStream.OutString, is("****************************Customer************************name:test1amount:10.4"));
 
     }
 
