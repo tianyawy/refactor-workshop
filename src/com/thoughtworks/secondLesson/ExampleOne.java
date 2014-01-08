@@ -45,11 +45,37 @@ public class ExampleOne {
         PrintBanner();
         //Calculate Outstanding
 
-        double outstanding = getOutstanding2(previousPrice*1.2);
+        double outstanding = getOutstanding2(previousPrice * 1.2);
         //print details
         PrintDetails(outstanding);
 
 
+    }
+
+    public void printOwing3(double previousPrice,int month,int day) {
+        //Print banner
+        PrintBanner();
+        //Calculate Outstanding
+        double outstanding = getOutstanding2(previousPrice*1.2);
+
+
+        double adjustValue = adjustValue(month, day);
+        //print details
+        PrintDetails(outstanding + adjustValue);
+
+
+    }
+
+    private double adjustValue(int month, int day) {
+        int totalDays = month*31+day;
+        double importantValue1 = (totalDays * 3) + 200;
+        double importantValue2 = (totalDays * 1.5) + 400;
+
+        if((totalDays*4 - importantValue1) > 100){
+            importantValue2 = importantValue2 - 20;
+        }
+
+        return importantValue2 * 7 -importantValue1;
     }
 
     private double getOutstanding2(double initOutstanding){
