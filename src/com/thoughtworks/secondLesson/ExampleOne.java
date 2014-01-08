@@ -39,18 +39,18 @@ public class ExampleOne {
 
     public void printOwing2(double previousPrice) {
         Enumeration e = _Orders.elements();
-        double outstanding = previousPrice*1.2;
+        previousPrice = previousPrice*1.2;
 
         //Print banner
         PrintBanner();
         //Calculate Outstanding
         while (e.hasMoreElements()) {
             Order each = (Order) e.nextElement();
-            outstanding += each.GetAmount();
+            previousPrice += each.GetAmount();
         }
 
         //print details
-        PrintDetails(outstanding);
+        PrintDetails(previousPrice);
 
 
     }
