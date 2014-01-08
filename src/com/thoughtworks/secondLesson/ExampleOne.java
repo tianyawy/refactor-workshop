@@ -18,23 +18,26 @@ public class ExampleOne {
     }
 
     public void printOwing() {
-        Enumeration e = _Orders.elements();
-        double outstanding = 0.0;
-
         //Print banner
         PrintBanner();
 
-
-        //Calculate Outstanding
-        while (e.hasMoreElements()) {
-            Order each = (Order) e.nextElement();
-            outstanding += each.GetAmount();
-        }
+        double outstanding = getOutstanding();
 
         //print details
         PrintDetails(outstanding);
 
 
+    }
+
+    private double getOutstanding(){
+        double result = 0.0;
+        Enumeration e = _Orders.elements();
+        //Calculate Outstanding
+        while (e.hasMoreElements()) {
+            Order each = (Order) e.nextElement();
+            result += each.GetAmount();
+        }
+        return result;
     }
 
     public void printOwing2(double previousPrice) {

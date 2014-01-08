@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
@@ -77,19 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleOneTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="128" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.6972477" vertical-offset="340" max-vertical-offset="885">
+            <state line="63" column="78" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExampleOne.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ExampleOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="46" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1065">
+            <state line="31" column="36" selection-start="706" selection-end="706" vertical-scroll-proportion="0.6330275" vertical-offset="60" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -132,8 +131,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintstream.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
       </list>
     </option>
   </component>
@@ -865,16 +864,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="46" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1065">
+        <state line="63" column="78" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="128" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.6972477" vertical-offset="340" max-vertical-offset="885">
+        <state line="31" column="36" selection-start="706" selection-end="706" vertical-scroll-proportion="0.6330275" vertical-offset="60" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
