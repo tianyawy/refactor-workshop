@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
@@ -69,7 +70,7 @@
       <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="130" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
+            <state line="72" column="130" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -78,7 +79,7 @@
       <file leaf-file-name="ExampleOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="65" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.3090909" vertical-offset="795" max-vertical-offset="1620">
+            <state line="110" column="26" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.54545456" vertical-offset="1170" max-vertical-offset="1995">
               <folding />
             </state>
           </provider>
@@ -121,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/com/thoughtworks/firstLesson/SpyChecker.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintstream.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
       </list>
     </option>
   </component>
@@ -156,6 +157,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,8 +295,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,6 +320,9 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.secondLesson.ExampleOne.Gamma" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.thoughtworks" />
     </key>
@@ -428,19 +432,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -466,6 +457,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -940,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="65" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.3090909" vertical-offset="795" max-vertical-offset="1620">
+        <state line="110" column="26" selection-start="2893" selection-end="2893" vertical-scroll-proportion="0.54545456" vertical-offset="1170" max-vertical-offset="1995">
           <folding />
         </state>
       </provider>
