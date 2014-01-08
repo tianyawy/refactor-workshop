@@ -41,21 +41,26 @@ public class ExampleOne {
     }
 
     public void printOwing2(double previousPrice) {
-        Enumeration e = _Orders.elements();
-        double outstanding = previousPrice*1.2;
-
         //Print banner
         PrintBanner();
         //Calculate Outstanding
-        while (e.hasMoreElements()) {
-            Order each = (Order) e.nextElement();
-            outstanding += each.GetAmount();
-        }
+        double initOutstanding = previousPrice*1.2;
 
+        double outstanding = getOutstanding2(initOutstanding);
         //print details
         PrintDetails(outstanding);
 
 
+    }
+
+    private double getOutstanding2(double initOutstanding){
+        Enumeration e = _Orders.elements();
+        double result = initOutstanding;
+        while (e.hasMoreElements()) {
+            Order each = (Order) e.nextElement();
+            result += each.GetAmount();
+        }
+        return result;
     }
 
     private void PrintDetails(double outstanding) {
