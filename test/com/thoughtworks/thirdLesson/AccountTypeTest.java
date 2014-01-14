@@ -19,4 +19,6 @@ public class AccountTypeTest {
         AccountType type = new AccountType(99);
         assertThat(type.isPremium(), is(false));
     }
+
+
 }

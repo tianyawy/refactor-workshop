@@ -18,15 +18,15 @@ public class Account {
     public double bankCharge(){
         double result = 4.5;
         if(_daysOverdrawn > 0)
-            result = overdraftCharge();
+            result += overdraftCharge();
         return result;
     }
 
     private double overdraftCharge() {
         if(_AccountType.isPremium()){
-            double result = 0;
+            double result = 10;
             if(_daysOverdrawn > 7)
-                result = (_daysOverdrawn - 7) * 0.85;
+                result += (_daysOverdrawn - 7) * 0.85;
             return result;
         }
         else
