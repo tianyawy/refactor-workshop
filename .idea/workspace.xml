@@ -4,6 +4,7 @@
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -81,25 +82,25 @@
       <file leaf-file-name="AccountTypeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="24" column="67" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountType.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AccountType.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="9" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.20183486" vertical-offset="25" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6146789" vertical-offset="55" max-vertical-offset="630">
+            <state line="20" column="47" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -108,7 +109,7 @@
       <file leaf-file-name="AccountTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="50" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="24" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -153,10 +154,10 @@
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
+        <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
-        <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
       </list>
     </option>
   </component>
@@ -1037,30 +1038,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="50" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="24" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="67" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6146789" vertical-offset="55" max-vertical-offset="630">
+        <state line="20" column="47" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.20183486" vertical-offset="25" max-vertical-offset="570">
           <folding />
         </state>
       </provider>

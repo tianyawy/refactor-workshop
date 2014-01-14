@@ -24,6 +24,5 @@ public class AccountTest {
         Account account = new Account(new AccountType(101), 6);
 
         assertThat(account.bankCharge(), is(14.5));
-
     }
 }

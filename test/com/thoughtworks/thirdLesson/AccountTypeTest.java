@@ -20,5 +20,10 @@ public class AccountTypeTest {
         assertThat(type.isPremium(), is(false));
     }
 
+    @Test
+    public void should_overdraftCharge_is_as_base_result_and_add_overdrawn_rate_with_overdrawn_more_than_7_days(){
+        assertThat(new AccountType(101).overdraftCharge(8),is(10.85));
+    }
+
 
 }
