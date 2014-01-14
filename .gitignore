@@ -1,2 +1,4 @@
 build/
 out/
+_site
+.idea/codeStyleSettings.xml
