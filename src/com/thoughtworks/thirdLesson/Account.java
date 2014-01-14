@@ -12,7 +12,7 @@ public class Account {
     public Account(AccountType accountType, int daysOverdrawn) {
         _AccountType = accountType;
         _daysOverdrawn = daysOverdrawn;
-        createDaysOverdrawnComputerByType();
+        this.daysOverdrawn = new OverdrawnBuilder(_AccountType, _daysOverdrawn).invoke();
     }
 
     public double bankCharge(){
@@ -20,15 +20,6 @@ public class Account {
         if(_daysOverdrawn > 0)
             result += daysOverdrawn.invoke();
         return result;
-    }
-
-    private void createDaysOverdrawnComputerByType() {
-        if(_AccountType.isPremium()){
-            daysOverdrawn = new PremiumDaysOverdrawn(_daysOverdrawn);
-        }
-        else {
-            daysOverdrawn = new DaysOverdrawn(_daysOverdrawn);
-        }
     }
 
 }
