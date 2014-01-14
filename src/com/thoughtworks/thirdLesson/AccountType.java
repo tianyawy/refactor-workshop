@@ -6,10 +6,11 @@ package com.thoughtworks.thirdLesson;
 public class AccountType {
 
     private int _Amount;
+    private int _daysOverdrawn;
 
-    public AccountType(int amount) {
-
+    public AccountType(int amount, int daysOverdrawn) {
         _Amount = amount;
+        _daysOverdrawn = daysOverdrawn;
     }
 
     public boolean isPremium() {
@@ -18,15 +19,19 @@ public class AccountType {
         return false;
     }
 
-    public double overdraftCharge(int daysOverdrawn){
+    public double overdraftCharge(){
         if(isPremium()){
             double result = 10;
-            if(daysOverdrawn > 7)
-                result += (daysOverdrawn - 7) * 0.85;
+            if(_daysOverdrawn > 7)
+                result += (_daysOverdrawn - 7) * 0.85;
             return result;
         }
         else
-            return daysOverdrawn *1.75;
+            return _daysOverdrawn *1.75;
 
+    }
+
+    public int getDaysOverdrawn() {
+        return _daysOverdrawn;
     }
 }

@@ -6,19 +6,17 @@ package com.thoughtworks.thirdLesson;
 public class Account {
 
     private AccountType _AccountType;
-    private int _daysOverdrawn;
 
-    public Account(AccountType accountType, int daysOverdrawn) {
+    public Account(AccountType accountType) {
 
         _AccountType = accountType;
 
-        _daysOverdrawn = daysOverdrawn;
     }
 
     public double bankCharge(){
         double result = 4.5;
-        if(_daysOverdrawn > 0)
-            result += _AccountType.overdraftCharge(_daysOverdrawn);
+        if(_AccountType.getDaysOverdrawn() > 0)
+            result += _AccountType.overdraftCharge();
         return result;
     }
 
