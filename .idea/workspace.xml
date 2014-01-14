@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnComputer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdrawnComputer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnBuilder.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnBuilder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,69 +70,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="18" selection-start="1276" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTypeTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="32" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Account.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="14" column="73" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3853211" vertical-offset="0" max-vertical-offset="545">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OverdrawnBuilder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="OverdrawnBuilder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="9" selection-start="623" selection-end="623" vertical-scroll-proportion="0.6055046" vertical-offset="0" max-vertical-offset="545">
+            <state line="9" column="44" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PremiumDaysOverdrawn.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java">
+      <file leaf-file-name="OverdrawnComputer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="4" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java">
+      <file leaf-file-name="PremiumOverdrawnComputer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdrawnComputer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="50" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state line="8" column="36" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,10 +149,12 @@
         <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/IDaysOverdrawnComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdraftCharge.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdrawnComputer.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnComputer.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnBuilder.java" />
       </list>
     </option>
@@ -1037,26 +1012,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="18" selection-start="1276" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07272727" vertical-offset="0" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="50" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.4678899" vertical-offset="0" max-vertical-offset="545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="18" selection-start="1276" selection-end="1399" vertical-scroll-proportion="0.20183486" vertical-offset="475" max-vertical-offset="1020">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1067,32 +1042,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdrawnComputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state line="8" column="36" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnComputer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="4" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/OverdrawnBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="623" selection-end="623" vertical-scroll-proportion="0.6055046" vertical-offset="0" max-vertical-offset="545">
+        <state line="9" column="44" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="73" selection-start="436" selection-end="436" vertical-scroll-proportion="0.3853211" vertical-offset="0" max-vertical-offset="545">
           <folding />
         </state>
       </provider>

@@ -6,20 +6,18 @@ package com.thoughtworks.thirdLesson;
 public class OverdrawnBuilder {
 
     private AccountType accountType;
-    private int daysOverdrawn;
 
-    OverdrawnBuilder(AccountType accountType, int daysOverdrawn) {
+    OverdrawnBuilder(AccountType accountType) {
         this.accountType = accountType;
-        this.daysOverdrawn = daysOverdrawn;
     }
 
-    public DaysOverdrawn invoke() {
-        DaysOverdrawn overDrawnComputer;
+    public OverdrawnComputer invoke() {
+        OverdrawnComputer overDrawnComputer;
         if(accountType.isPremium()){
-            overDrawnComputer = new PremiumDaysOverdrawn(daysOverdrawn);
+            overDrawnComputer = new PremiumOverdrawnComputer();
         }
         else {
-            overDrawnComputer = new DaysOverdrawn(daysOverdrawn);
+            overDrawnComputer = new OverdrawnComputer();
         }
         return overDrawnComputer;
     }

@@ -3,16 +3,16 @@ package com.thoughtworks.thirdLesson;
 /**
  * Created by twer on 1/15/14.
  */
-public class PremiumDaysOverdrawn extends DaysOverdrawn {
+public class PremiumOverdrawnComputer extends OverdrawnComputer {
 
 
-    public PremiumDaysOverdrawn(int daysOverdrawn) {
-        super(daysOverdrawn);
+    public PremiumOverdrawnComputer() {
+        super();
     }
 
 
     @Override
-    public double invoke() {
+    public double invoke(int daysOverdrawn) {
         double result = 10;
         if(daysOverdrawn > 7)
             result += (daysOverdrawn - 7) * 0.85;
