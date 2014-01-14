@@ -7,30 +7,29 @@ public class Account {
 
     private AccountType _AccountType;
     private int _daysOverdrawn;
+    private DaysOverdrawn daysOverdrawn;
 
     public Account(AccountType accountType, int daysOverdrawn) {
-
         _AccountType = accountType;
-
         _daysOverdrawn = daysOverdrawn;
+        createDaysOverdrawnComputerByType();
     }
 
     public double bankCharge(){
         double result = 4.5;
         if(_daysOverdrawn > 0)
-            result += overdraftCharge();
+            result += daysOverdrawn.invoke();
         return result;
     }
 
-    private double overdraftCharge() {
+    private void createDaysOverdrawnComputerByType() {
         if(_AccountType.isPremium()){
-            double result = 10;
-            if(_daysOverdrawn > 7)
-                result += (_daysOverdrawn - 7) * 0.85;
-            return result;
+            daysOverdrawn = new PremiumDaysOverdrawn(_daysOverdrawn);
         }
-        else
-            return _daysOverdrawn *1.75;
+        else {
+            daysOverdrawn = new DaysOverdrawn(_daysOverdrawn);
+        }
     }
 
 }
+

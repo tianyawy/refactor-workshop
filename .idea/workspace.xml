@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4160966-a804-4ff8-a366-a16a9e4c71de" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" afterPath="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" afterPath="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="refactor-workshop.iws" />
@@ -72,7 +70,7 @@
       <file leaf-file-name="ExampleOneTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="18" selection-start="1276" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
+            <state line="54" column="18" selection-start="1276" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -90,7 +88,7 @@
       <file leaf-file-name="AccountType.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="19" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
@@ -99,7 +97,16 @@
       <file leaf-file-name="Account.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6146789" vertical-offset="55" max-vertical-offset="630">
+            <state line="22" column="5" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PremiumDaysOverdrawn.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -153,10 +160,14 @@
         <option value="$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java" />
         <option value="$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
         <option value="$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/IDaysOverdrawnComputer.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumOverdraftCharge.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java" />
+        <option value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java" />
       </list>
     </option>
   </component>
@@ -191,6 +202,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,7 +383,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,21 +409,25 @@
     <property name="FullScreen" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/thoughtworks/thirdLesson" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.thoughtworks.thirdLesson" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.thirdLesson.PremiumDaysOverdrawn" />
       <recent name="com.thoughtworks.secondLesson.ExampleOne.Gamma" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thoughtworks.thirdLesson" />
       <recent name="com.thoughtworks" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thoughtworks.thirdLesson" />
       <recent name="com.thoughtworks.firstLesson" />
       <recent name="com.thoughtworks" />
     </key>
@@ -546,6 +561,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -571,19 +599,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -717,10 +732,11 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19097222" sideWeight="0.42757416" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19861111" sideWeight="0.4283217" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -728,14 +744,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19861111" sideWeight="0.57242584" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19861111" sideWeight="0.57167834" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282532" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -760,20 +775,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/secondLesson/ExampleOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="1620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/utils/FakePrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="68" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/secondLesson/ExampleOneTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="12" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="1110">
@@ -1037,16 +1038,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/DaysOverdrawn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+        <state line="4" column="18" selection-start="87" selection-end="87" vertical-scroll-proportion="0.07272727" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
@@ -1058,9 +1052,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/AccountType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/thoughtworks/thirdLesson/AccountTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="48" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/PremiumDaysOverdrawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/thirdLesson/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="594" selection-end="594" vertical-scroll-proportion="0.6146789" vertical-offset="55" max-vertical-offset="630">
+        <state line="22" column="5" selection-start="573" selection-end="573" vertical-scroll-proportion="0.4" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
