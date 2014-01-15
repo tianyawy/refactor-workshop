@@ -25,4 +25,16 @@ public class AccountTest {
 
         assertThat(account.bankCharge(), is(14.5));
     }
+
+
+    @Test
+    public void should_interestRate(){
+        Account account = new Account(new AccountType(101, 6));
+        account._interestRate  = 10.0;
+
+
+        assertThat(account.interesetForAmout_days(5.0,6), is(0.821917808219178));
+
+
+    }
 }

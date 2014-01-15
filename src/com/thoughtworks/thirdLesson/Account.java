@@ -6,6 +6,7 @@ package com.thoughtworks.thirdLesson;
 public class Account {
 
     private AccountType _AccountType;
+    public double _interestRate;
 
     public Account(AccountType accountType) {
 
@@ -20,4 +21,7 @@ public class Account {
         return result;
     }
 
+    public Double interesetForAmout_days(double amount, int days) {
+        return _interestRate * amount * days / 365;
+    }
 }
