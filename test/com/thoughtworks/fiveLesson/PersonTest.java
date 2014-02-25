@@ -1,14 +1,11 @@
 package com.thoughtworks.fiveLesson;
 
-import junit.framework.TestCase;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * Created by twer on 2/25/14.
- */
-public class PersonTest extends TestCase {
+public class PersonTest {
     private Person _Instance;
 
     @Before
@@ -18,7 +15,7 @@ public class PersonTest extends TestCase {
 
     @Test
     public void testBloodGroup() throws Exception {
-        assertEquals(_Instance.get_bloodGroup(), Person.A);
+        Assert.assertEquals(_Instance.get_bloodGroup(), Person.A);
     }
 
     @After
